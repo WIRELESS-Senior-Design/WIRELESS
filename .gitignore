@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Arduino / build artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.o
+*.a
+
+# ESP-IDF
+build/
+sdkconfig.old
+
+# PlatformIO
+.pio/
+
+# FPGA tool outputs (Vivado/Quartus)
+*.jou
+*.log
+*.str
+*.wdb
+*.cache
+*.runs/
+*.sim/
+*.ip_user_files/
+
+# Simulation waveforms (optional)
+*.vcd
